@@ -20,6 +20,7 @@ header {
 .title {
   display: inline-flex;
   flex-grow: 1;
+  padding-left: 10px;
 }
 
 header nav {
@@ -45,6 +46,7 @@ nav span {
 .content {
   font-family: calibri;
   padding-top: 70px;
+  padding-left: 10px;
 }
 
 .listitems:hover {
