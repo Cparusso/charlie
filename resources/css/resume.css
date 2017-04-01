@@ -58,6 +58,7 @@ nav span {
 .name {
   display: inline-flex;
   flex-grow: 1;
+  font-size: 20px;
 }
 
 .allresumelinks {
