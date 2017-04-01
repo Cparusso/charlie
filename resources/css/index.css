@@ -13,6 +13,10 @@ header {
   border-right: solid black 3px;
 }
 
+header.style {
+  top: 0px;
+}
+
 .title {
   display: inline-flex;
   flex-grow: 1;
