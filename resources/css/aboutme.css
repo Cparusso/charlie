@@ -1,21 +1,44 @@
-#heading {
+body {
+  margin: 0px;
+}
+
+/* Header */
+header {
   color: black;
-  font-weight: 100;
-  margin-top: -0.1em;
-  border-bottom: solid;
-  font-size: 70px;
-  line-height: .9;
-  border-right: solid;
-  padding-left: .22em;
-  margin-bottom: .25em;
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  height: 70px;
+  border-bottom: solid black 2px;
+  border-right: solid black 3px;
 }
 
-h3,
-p {
-  padding-left: 1em;
+.title {
+  display: inline-flex;
+  flex-grow: 1;
+  padding-left: 10px;
 }
 
-.toplinks {
-  text-align: left;
-  padding-left: 1em;
+header nav {
+  color: black;
+  font-size: 14px;
+  padding-right: 30px;
+}
+
+nav span {
+  display: inline-block;
+  padding-right: 10px;
+  border-right: solid black 2px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.lastlink {
+  border-right: none;
+  padding-right: 0px;
+  margin-right: 0px;
 }
