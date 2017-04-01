@@ -4,8 +4,6 @@ body {
 
 /* Header */
 header {
-  color: black;
-  font-weight: bold;
   font-size: 25px;
   display: flex;
   position: fixed;
@@ -15,6 +13,7 @@ header {
   height: 70px;
   border-bottom: solid black 2px;
   border-right: solid black 3px;
+  font-family: Georgia, serif;
 }
 
 .title {
@@ -41,4 +40,12 @@ nav span {
   border-right: none;
   padding-right: 0px;
   margin-right: 0px;
+}
+
+/* Content */
+
+.content {
+  padding-top: 90px;
+  margin-left: 10px;
+  font-family: Georgia, serif;
 }
