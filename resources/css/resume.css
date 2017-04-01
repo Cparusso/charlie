@@ -50,6 +50,7 @@ nav span {
   padding-left: 10px;
 }
 
+/* Content Heading */
 .heading {
   display: flex;
 }
@@ -74,3 +75,5 @@ nav span {
   border-right: none;
   margin-right: 0px;
 }
+
+/* Main Content */
